@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fa26016c4d234468b37c07e66a1fb315" Name="Diagram1">
+        <EntityTypeShape EntityType="chrysallisModel.asistir" Width="1.5" PointX="4.75" PointY="4.625" />
+        <EntityTypeShape EntityType="chrysallisModel.comunidades" Width="1.5" PointX="0.5" PointY="5.375" />
+        <EntityTypeShape EntityType="chrysallisModel.documentos" Width="1.5" PointX="5.5" PointY="10.375" />
+        <EntityTypeShape EntityType="chrysallisModel.eventos" Width="1.5" PointX="2.375" PointY="8" />
+        <EntityTypeShape EntityType="chrysallisModel.mensajes" Width="1.5" PointX="5.875" PointY="7.625" />
+        <EntityTypeShape EntityType="chrysallisModel.notificaciones" Width="1.5" PointX="0.5" PointY="10.625" />
+        <EntityTypeShape EntityType="chrysallisModel.socios" Width="1.5" PointX="2.5" PointY="3.625" />
+        <AssociationConnector Association="chrysallisModel.FK_asistir_eventos" />
+        <AssociationConnector Association="chrysallisModel.FK_asistir_socios" />
+        <AssociationConnector Association="chrysallisModel.FK_eventos_comunidades" />
+        <AssociationConnector Association="chrysallisModel.FK_socios_comunidades" />
+        <AssociationConnector Association="chrysallisModel.FK_documentos_eventos" />
+        <AssociationConnector Association="chrysallisModel.FK_mensajes_eventos" />
+        <AssociationConnector Association="chrysallisModel.FK_mensajes_socios" />
+        <AssociationConnector Association="chrysallisModel.notificaciones_eventos" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

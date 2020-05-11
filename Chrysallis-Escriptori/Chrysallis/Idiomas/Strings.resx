@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="login" xml:space="preserve">
+    <value>Accedir</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Contrasenya</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>Usuari</value>
+  </data>
+  <data name="catalan" xml:space="preserve">
+    <value>Català</value>
+  </data>
+  <data name="spanish" xml:space="preserve">
+    <value>Castellà</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>Anglès</value>
+  </data>
+  <data name="managePartners" xml:space="preserve">
+    <value>Gestionar persones</value>
+  </data>
+  <data name="manageEvents" xml:space="preserve">
+    <value>Gestionar esdeveniments</value>
+  </data>
+  <data name="addPartner" xml:space="preserve">
+    <value>Afegir persona</value>
+  </data>
+  <data name="addEvent" xml:space="preserve">
+    <value>Afegir esdeveniment</value>
+  </data>
+  <data name="partners" xml:space="preserve">
+    <value>Persones</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>Menú</value>
+  </data>
+  <data name="event" xml:space="preserve">
+    <value>Esdeveniments</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Telèfon</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="lastName" xml:space="preserve">
+    <value>Cognoms</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Actiu</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Adreça</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Correu</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>Estatal</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Desar</value>
+  </data>
+  <data name="community" xml:space="preserve">
+    <value>Comunitat</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="deadline" xml:space="preserve">
+    <value>Data limit</value>
+  </data>
+  <data name="documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>Ubicació</value>
+  </data>
+  <data name="notifications" xml:space="preserve">
+    <value>Notificacions (dies)</value>
+  </data>
+  <data name="numberOfAttendees" xml:space="preserve">
+    <value>Max persones</value>
+  </data>
+  <data name="time" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="Andalucía" xml:space="preserve">
+    <value>Andalusia</value>
+  </data>
+  <data name="Galicia" xml:space="preserve">
+    <value>Galícia</value>
+  </data>
+  <data name="La Rioja" xml:space="preserve">
+    <value>La Rioja</value>
+  </data>
+  <data name="Comunidad de Madrid" xml:space="preserve">
+    <value>Comunitat de Madrid</value>
+  </data>
+  <data name="Región de Murcia" xml:space="preserve">
+    <value>Regió de Múrcia</value>
+  </data>
+  <data name="Comunidad Foral de Navarra" xml:space="preserve">
+    <value>Comunitat Foral de Navarra</value>
+  </data>
+  <data name="País Vasco" xml:space="preserve">
+    <value>País Basc</value>
+  </data>
+  <data name="Ceuta" xml:space="preserve">
+    <value>Ceuta</value>
+  </data>
+  <data name="Melilla" xml:space="preserve">
+    <value>Melilla</value>
+  </data>
+  <data name="Aragón" xml:space="preserve">
+    <value>Aragó</value>
+  </data>
+  <data name="Principado de Asturias" xml:space="preserve">
+    <value>Principat d'Astúries</value>
+  </data>
+  <data name="Islas Baleares" xml:space="preserve">
+    <value>Illes Balears</value>
+  </data>
+  <data name="Canarias" xml:space="preserve">
+    <value>Canàries</value>
+  </data>
+  <data name="Cantabria" xml:space="preserve">
+    <value>Cantàbria</value>
+  </data>
+  <data name="Castilla-La Mancha" xml:space="preserve">
+    <value>Castella - la Manxa</value>
+  </data>
+  <data name="Castilla y León" xml:space="preserve">
+    <value>Castella i Lleó</value>
+  </data>
+  <data name="Cataluña" xml:space="preserve">
+    <value>Catalunya</value>
+  </data>
+  <data name="Comunidad Valenciana" xml:space="preserve">
+    <value>Comunitat Valenciana</value>
+  </data>
+  <data name="Extremadura" xml:space="preserve">
+    <value>Extremadura</value>
+  </data>
+  <data name="password2" xml:space="preserve">
+    <value>Verificar contrasenya</value>
+  </data>
+  <data name="errorDni" xml:space="preserve">
+    <value>El DNI no pot estar buit</value>
+  </data>
+  <data name="errorPhone" xml:space="preserve">
+    <value>El telèfon no pot estar buit</value>
+  </data>
+  <data name="errorPhoneNum" xml:space="preserve">
+    <value>El telèfon ha de ser numèric</value>
+  </data>
+  <data name="errorName" xml:space="preserve">
+    <value>El nom no pot estar buit</value>
+  </data>
+  <data name="errorLastName" xml:space="preserve">
+    <value>Els cognoms no poden estar buits</value>
+  </data>
+  <data name="errorEmail" xml:space="preserve">
+    <value>El correu no pot estar buit</value>
+  </data>
+  <data name="errorPassword" xml:space="preserve">
+    <value>La contrasenya no pot estar buida</value>
+  </data>
+  <data name="errorPassword2" xml:space="preserve">
+    <value>La contrasenya no coincideix</value>
+  </data>
+  <data name="partnerCreated" xml:space="preserve">
+    <value>La persona ha estat creada</value>
+  </data>
+  <data name="created" xml:space="preserve">
+    <value>CREAT</value>
+  </data>
+  <data name="modifyPartner" xml:space="preserve">
+    <value>Modificar persona</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>Des de</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>Fins</value>
+  </data>
+  <data name="confirmDeleteEvent" xml:space="preserve">
+    <value>Estàs segur d'eliminar l'esdeveniment?</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Confirmació</value>
+  </data>
+  <data name="choose" xml:space="preserve">
+    <value>Selecciona</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Descripció</value>
+  </data>
+  <data name="image" xml:space="preserve">
+    <value>Imatge</value>
+  </data>
+  <data name="newdoc" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="see" xml:space="preserve">
+    <value>Veure</value>
+  </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Cercar</value>
+  </data>
+  <data name="clean" xml:space="preserve">
+    <value>Netejar</value>
+  </data>
+  <data name="errorBD" xml:space="preserve">
+    <value>Error a l'accedir a la BD. \nEs procedeix a tancar el programa.</value>
+  </data>
+  <data name="confirmDeleteUser" xml:space="preserve">
+    <value>Vol eliminar la persona seleccionada?</value>
+  </data>
+  <data name="cannotDeleteYourself" xml:space="preserve">
+    <value>No es pot eliminar el seu propi compte!</value>
+  </data>
+  <data name="modifiedPartnert" xml:space="preserve">
+    <value>La persona ha estat modificada</value>
+  </data>
+  <data name="modified" xml:space="preserve">
+    <value>MODIFICAT</value>
+  </data>
+  <data name="seeAttendees" xml:space="preserve">
+    <value>Veure assistents</value>
+  </data>
+  <data name="seeRatings" xml:space="preserve">
+    <value>Veure valoracions</value>
+  </data>
+  <data name="errorDescription" xml:space="preserve">
+    <value>La descripció no pot estar buida</value>
+  </data>
+  <data name="errorDate" xml:space="preserve">
+    <value>No es poden posar dates anteriors a l'actual</value>
+  </data>
+  <data name="errorLocation" xml:space="preserve">
+    <value>La ubicació no pot estar buida</value>
+  </data>
+  <data name="errorDateLimit" xml:space="preserve">
+    <value>La data límit no pot ser més gran que la data de l'esdeveniment</value>
+  </data>
+  <data name="errorNotification" xml:space="preserve">
+    <value>S'ha de seleccionar a mínim una notificació</value>
+  </data>
+  <data name="eventCreated" xml:space="preserve">
+    <value>L'esdeveniment ha estat creat</value>
+  </data>
+  <data name="eventModified" xml:space="preserve">
+    <value>L'esdeveniment ha estat modificat</value>
+  </data>
+  <data name="errorDocument" xml:space="preserve">
+    <value>L'arxiu seleccionat no és un document</value>
+  </data>
+  <data name="errorAsistentes" xml:space="preserve">
+    <value>El nombre de persones ha de ser numèric</value>
+  </data>
+  <data name="modifyEvent" xml:space="preserve">
+    <value>Modificar esdeveniment</value>
+  </data>
+  <data name="partnerPasswordEmpty" xml:space="preserve">
+    <value>Persona i / o contrasenya buides!</value>
+  </data>
+  <data name="wrongCredentials" xml:space="preserve">
+    <value>Credencials incorrectes!</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Avís!</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Afegir &gt;&gt;</value>
+  </data>
+  <data name="assessment" xml:space="preserve">
+    <value>Valoració</value>
+  </data>
+  <data name="assistants" xml:space="preserve">
+    <value>Assistents</value>
+  </data>
+  <data name="commentary" xml:space="preserve">
+    <value>Comentari</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>&lt;&lt; Eliminar</value>
+  </data>
+  <data name="howMany" xml:space="preserve">
+    <value>Quants</value>
+  </data>
+  <data name="ratings" xml:space="preserve">
+    <value>Valoracions</value>
+  </data>
+  <data name="somethingWentWring" xml:space="preserve">
+    <value>Alguna cosa no ha sortit bé... Igual alguna foto o document no es compatible.</value>
+  </data>
+  <data name="security" xml:space="preserve">
+    <value>La contrasenya ha de tenir una minúscula, un majúscula, un caràcter especial(@$!%*?&amp;.) i una longitud mínima de 8 caràcters.</value>
+  </data>
+  <data name="partner" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="promedio" xml:space="preserve">
+    <value>Mitjana: </value>
+  </data>
+</root>
